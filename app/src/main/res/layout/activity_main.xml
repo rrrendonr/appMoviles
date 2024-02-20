@@ -6,13 +6,130 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/fondo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_2"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_2"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="269dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/roboto"
+        android:text="VIVE ANTIOQUIA"
+        android:textColor="@color/white"
+        android:textSize="35"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Urrao"
+        android:textColor="#FBFBFB"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Jardin"
+        android:textColor="#FBFBFB"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="El Retiro"
+        android:textColor="#FBFBFB"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Guatape"
+        android:textColor="#FBFBFB"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/urrao_bandera"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/Jardin_bandera"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/Retiro_bandera"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/Guatape_bandera"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="268dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

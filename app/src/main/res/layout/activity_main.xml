@@ -18,7 +18,7 @@
         android:id="@+id/imageView_card_urrao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group_2"
+        app:srcCompat="@drawable/group_2"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="262dp" />
 
@@ -26,7 +26,7 @@
         android:id="@+id/imageView_card_jardin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group_2"
+        app:srcCompat="@drawable/group_2"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="474dp" />
 
@@ -34,7 +34,7 @@
         android:id="@+id/imageView_card_retiro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group_2"
+        app:srcCompat="@drawable/group_2"
         tools:layout_editor_absoluteX="231dp"
         tools:layout_editor_absoluteY="474dp" />
 
@@ -42,7 +42,7 @@
         android:id="@+id/imageView_card_guatape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group_2"
+        app:srcCompat="@drawable/group_2"
         tools:layout_editor_absoluteX="231dp"
         tools:layout_editor_absoluteY="262dp" />
 
@@ -113,7 +113,7 @@
         android:id="@+id/imageView_jardin"
         android:layout_width="77dp"
         android:layout_height="83dp"
-        app:srcCompat="@drawable/Jardin_bandera"
+        app:srcCompat="@drawable/jardin_bandera"
         tools:layout_editor_absoluteX="71dp"
         tools:layout_editor_absoluteY="482dp" />
 
@@ -121,7 +121,7 @@
         android:id="@+id/imageView_retiro"
         android:layout_width="77dp"
         android:layout_height="83dp"
-        app:srcCompat="@drawable/Retiro_bandera"
+        app:srcCompat="@drawable/retiro_bandera"
         tools:layout_editor_absoluteX="263dp"
         tools:layout_editor_absoluteY="482dp" />
 
@@ -129,7 +129,7 @@
         android:id="@+id/imageView_guatape"
         android:layout_width="77dp"
         android:layout_height="83dp"
-        app:srcCompat="@drawable/Guatape_bandera"
+        app:srcCompat="@drawable/guatape_bandera"
         tools:layout_editor_absoluteX="263dp"
         tools:layout_editor_absoluteY="268dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

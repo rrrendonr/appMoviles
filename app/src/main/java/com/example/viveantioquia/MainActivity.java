@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     CardView btn_urrao;
     CardView btn_guatape;
     CardView btn_jardin;
+    CardView btn_retiro;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,15 @@ public class MainActivity extends AppCompatActivity {
 
         btn_jardin = findViewById(R.id.card_jardin_btn);
         btn_jardin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_retiro = findViewById(R.id.card_retiro_btn);
+        btn_retiro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MenuActivity.class);

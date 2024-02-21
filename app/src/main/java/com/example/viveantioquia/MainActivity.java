@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    public static int option;
     CardView btn_urrao;
     CardView btn_guatape;
     CardView btn_jardin;
@@ -24,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_urrao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
+                goToActivity(1);
             }
         });
 
@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btn_guatape.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
+                goToActivity(2);
             }
         });
 
@@ -42,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
         btn_jardin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
+                goToActivity(3);
             }
         });
 
@@ -51,10 +49,15 @@ public class MainActivity extends AppCompatActivity {
         btn_retiro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
+                goToActivity(4);
             }
         });
+    }
+
+    private void goToActivity(int option) {
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+        startActivity(intent);
+        MenuActivity.option_fragment = option;
     }
 
 }

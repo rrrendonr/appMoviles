@@ -94,6 +94,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card_jardin_btn"
             android:layout_width="150dp"
             android:layout_height="150dp"
             app:cardCornerRadius="15dp"

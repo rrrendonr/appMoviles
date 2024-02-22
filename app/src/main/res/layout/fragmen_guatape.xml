@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_dark"
     >
 
     <TextView
+        android:id="@+id/text_guatape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guatape Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Pueblo de Zócalos; y &quot;Paraíso Turístico de Antioquia&quot;, te cautiva con sus coloridas fachadas adornadas con bajorrelieves y su ambiente vibrante. Disfruta del embalse Peñol-Guatapé, ideal para deportes acuáticos, y contempla la imponente Piedra del Peñol."
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="461dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="352dp"
+        app:srcCompat="@drawable/guatape" />
 
 </RelativeLayout>

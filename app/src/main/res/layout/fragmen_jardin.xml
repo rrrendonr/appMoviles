@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_purple"
     >
 
     <TextView
+        android:id="@+id/text_jardin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jardin Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Pueblito Mágico, te cautiva con sus casas de colores vibrantes, balcones floridos y ambiente colonial. Recorre sus calles empedradas, admira la Basílica de la Inmaculada Concepción y disfruta de la naturaleza."
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="231dp"
+        android:layout_height="394dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="103dp"
+        app:srcCompat="@drawable/jardin" />
 
 </RelativeLayout>

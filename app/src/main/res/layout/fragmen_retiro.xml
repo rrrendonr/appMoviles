@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_green_light"
     >
 
     <TextView
+        android:id="@+id/text_retiro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Retiro Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="434dp"
+        android:layout_marginBottom="116dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="La Esmeralda de las Montañas, enamora con su clima fresco, calles empedradas y arquitectura colonial. Famoso por su producción de flores, ofrece paisajes verdes y gastronomía típica."
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="289dp"
+        android:layout_height="377dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="317dp"
+        app:srcCompat="@drawable/el_retiro" />
 
 </RelativeLayout>

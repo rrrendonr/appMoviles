@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
     >
 
     <TextView
+        android:id="@+id/text_urraro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Urrao Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="406dp"
+        android:layout_marginBottom="115dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Puerta de Oro, te recibe con su imponente paisaje montañoso y su rica biodiversidad. Famoso por ser la cuna del ciclista Rigoberto Urán, ofrece un clima templado, calles coloniales y una cultura minera ancestral."
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="304dp"
+        android:layout_height="459dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="48dp"
+        app:srcCompat="@drawable/urrao" />
 
 </RelativeLayout>

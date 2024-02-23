@@ -11,7 +11,6 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static int option;
     CardView btn_urrao;
     CardView btn_guatape;
     CardView btn_jardin;
